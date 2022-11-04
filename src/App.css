@@ -1,5 +1,16 @@
+@font-face {
+  src: url('./assets/fonts/Nunito/Nunito-VariableFont_wght.ttf');
+  font-family: 'Nunito';
+}
+
+@font-face {
+  src: url('./assets/fonts/Rubik/Rubik-VariableFont_wght.ttf');
+  font-family: 'Rubik';
+}
+
 .App {
   text-align: center;
+  font-family: 'Nunito';
 }
 
 .App-logo {
