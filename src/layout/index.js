@@ -1,5 +1,5 @@
+import { Container } from 'assets/css/common';
 import React from 'react';
-import Container from 'react-bootstrap/esm/Container';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import logo from '../assets/images/favicon.png';
 import Footer from '../components/footer';
@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
     </HelmetProvider>
 
     <Header />
-    <Container fluid className='content'>
+    <Container className='container-fluid'>
       {children}
     </Container>
     <Footer/>
