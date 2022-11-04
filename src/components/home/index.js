@@ -1,11 +1,12 @@
-import React from "react";
-import DpAboutRoad from "./dp-about-road";
-import DpAdmission from "./dp-admission";
-import DpAlumniSaying from "./dp-alumni-saying";
-import DpBackground from "./DpBackground";
-import DpCampus from "./dp-campus";
-import DpConcerns from "./dp-concerns";
-import DpMustHave from "./dp-must-have";
+
+import React from 'react'
+import DpAboutRoad from './DpAboutRoad'
+import DpAdmission from './DpAdmission'
+import DpAlumniSaying from './DpAlumniSaying'
+import DpBackground from './DpBackground'
+import DpCampus from './DpCampus'
+import DpConcerns from './DpConcerns'
+import DpMustHave from './DpMustHave'
 
 const Content = () => {
   const titleBg =
