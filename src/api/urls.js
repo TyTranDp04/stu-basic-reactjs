@@ -1,0 +1,1 @@
+export const DP_ALUMNI_SAYING_URL = "https://6364bd3ff711cb49d1ea7ef1.mockapi.io/api/alumni-saying";

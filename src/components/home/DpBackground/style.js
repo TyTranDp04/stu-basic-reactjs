@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import logo from "assets/images/background.png";
+
 export const Container = styled.div`
   background: url(${logo});
   background-size: cover;
@@ -7,6 +8,7 @@ export const Container = styled.div`
   font-size: 15px;
   line-height: 26px;
 `;
+
 export const Row = styled.div`
   padding: 125px 0 425px;
   max-width: 734px;
@@ -19,7 +21,8 @@ export const Row = styled.div`
     max-width: 550px;
   }
 `;
-export const TitleBg = styled.div`
+
+export const TitleBg = styled.h1`
   font-size: 55px;
   font-weight: 700;
   line-height: 66px;
@@ -46,6 +49,7 @@ export const TitleBg = styled.div`
     line-height: 38px;
   }
 `;
+
 export const ContentBg = styled.div`
   color: #505050;
   font-size: 20px;
@@ -56,6 +60,7 @@ export const ContentBg = styled.div`
     font-size: 18px;
   }
 `;
+
 export const BtnBg = styled.button`
   background-color: #ff5623;
   border-color: #ff5421;
