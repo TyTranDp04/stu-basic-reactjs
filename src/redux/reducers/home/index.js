@@ -7,7 +7,7 @@ const initialState = {
   data: null
 }
 
-function getListDataDpRoadReducers(state = initialState, payload) {
+export function getListDataDpRoadReducers(state = initialState, payload) {
   switch (payload.type) {
     case GET_LIST_DATA_REQUEST:
       return {
@@ -33,4 +33,29 @@ function getListDataDpRoadReducers(state = initialState, payload) {
   }
 }
 
-export default getListDataDpRoadReducers;
+
+export function getListDataAlumniSayingReducers(state = initialState, payload) {
+  switch (payload.type) {
+    case GET_LIST_DATA_REQUEST:
+      return {
+        ...state,
+        requesting: true
+      };
+    case GET_LIST_DATA_SUCCESS:
+      return {
+        ...state,
+        requesting: false,
+        success: true,
+        data: payload.data
+      };
+    case GET_LIST_DATA_ERROR:
+      return {
+        ...state,
+        requesting: false,
+        message: payload.message
+      };
+
+    default:
+      return state;
+  }
+}
