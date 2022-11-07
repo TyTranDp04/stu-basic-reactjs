@@ -1,0 +1,1 @@
+export const DP_ROAD_URL = 'https://6363657f37f2167d6f783e95.mockapi.io/api/dp-about-road';

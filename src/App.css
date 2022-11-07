@@ -1,4 +1,10 @@
+@font-face {
+  src: url('./assets/fonts/Nunito/Nunito-VariableFont_wght.ttf');
+  font-family: 'Nunito';
+}
+
 .App {
+  font-family: 'Nunito';
   text-align: center;
 }
 
