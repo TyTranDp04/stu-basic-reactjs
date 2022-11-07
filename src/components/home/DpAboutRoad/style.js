@@ -77,7 +77,7 @@ export const DpRoad = styled.div`
 export const DpRoadTitle = styled.div`
   background: #226FB7;
   font-size: 20px;
-  padding: 18px 25px;
+  padding: 15px 25px;
   font-weight: 600;
   color: #ffffff;
   margin-bottom: 10px;
@@ -89,7 +89,7 @@ export const DpRoadContent = styled.div`
   background: #e7f4f6;
   margin-bottom: 12px;
   border-radius: 3px;
-  padding: 16.2px;
+  padding: 16.8px;
 `
 export const Number = styled.div`
   text-align: center;

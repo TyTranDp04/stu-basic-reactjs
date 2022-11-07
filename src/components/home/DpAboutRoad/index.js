@@ -8,7 +8,7 @@ const DpAboutRoad = ({ aboutTitle, aboutDesc, aboutContent, roadTitle }) => {
 
   const dpRoad = useSelector((state) => state.dpRoad.dpRoadState);
   const dispatch = useDispatch();
-  
+
   const data = dpRoad.data;
 
   useEffect(() => {

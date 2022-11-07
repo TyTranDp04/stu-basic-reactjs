@@ -1,11 +1,10 @@
-import Container from 'react-bootstrap/Container';
+import React from 'react'
 
 const DpMustHave = () => {
-
   return (
-    <Container fluid>
+    <>
 
-    </Container>
+    </>
   )
 }
 
