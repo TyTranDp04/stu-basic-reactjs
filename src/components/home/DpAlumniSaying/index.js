@@ -76,7 +76,7 @@ const DpAlumniSaying = ({ TitleAlumniSaying }) => {
       <Container className="container">
         <TitleAlumni>{TitleAlumniSaying}</TitleAlumni>
         <Slider {...settings}>
-          {dataAlumni.map((item) => 
+          {data.map((item) => (
             <CardSlider key={item.id}>
               <CardHeader>
                 <Icon src={item.icon}></Icon>

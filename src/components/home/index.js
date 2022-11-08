@@ -3,10 +3,6 @@ import DpAboutRoad from './DpAboutRoad'
 import DpAdmission from './DpAdmission'
 import DpAlumniSaying from './DpAlumniSaying'
 import DpBackground from './Dpbackground'
-<<<<<<< HEAD
-=======
-
->>>>>>> 6ad8d35beccbab2b24c33525ffb5cca044fa5d48
 import DpCampus from './DpCampus'
 import DpConcerns from './DpConcerns'
 import DpMustHave from './DpMustHave'
