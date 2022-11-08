@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useDispatch, useSelector } from "react-redux";
-import { getListDataAlumniSaying } from "redux/actions/home";
 import {
   CardFooter,
   CardHeader,
@@ -15,11 +14,13 @@ import {
   NameFooter,
   TitleAlumni,
 } from "./style";
+import { getListDataAlumniSaying } from "store/actions/home";
+import { dataAlumni } from "constants/alumniSaying";
 
 const DpAlumniSaying = ({ TitleAlumniSaying }) => {
-  const data = useSelector((state) => state.dpAlumniSaying.data);
+  const dataAlumniSaying = useSelector((state) => state.dpAlumniSaying.dpAlumniSayingState);
   const dispatch = useDispatch();
-
+  const data = dataAlumniSaying.data;
   console.log("data", data);
 
   useEffect(() => {
@@ -92,7 +93,7 @@ const DpAlumniSaying = ({ TitleAlumniSaying }) => {
       <Container className="container">
         <TitleAlumni>{TitleAlumniSaying}</TitleAlumni>
         <Slider {...settings}>
-          {data?.map((item) => (
+          {dataAlumni.map((item) => (
             <CardSlider key={item.id}>
               <CardHeader>
                 <Icon src={item.icon}></Icon>

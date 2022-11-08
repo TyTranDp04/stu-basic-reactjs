@@ -10,6 +10,10 @@ import DpConcerns from './DpConcerns'
 import DpMustHave from './DpMustHave'
 
 const Content = () => {
+  const aboutTitle = "ABOUT DEVPLUS";
+  const aboutDesc = "The Fact: Skilled labour shortage for software companies but full of freshers and low level juniors";
+  const aboutContent = "Our responsibility is filling the gap between the quality of graduate students and the quality of engineers. Devplus will help reducing the cost of re-training and accelerating the skill-up progress of students and freshers.";
+  const roadTitle = "ROAD TO BE A DEVPLUS"
   const titleBg =
     "Devplus Will Support The Early Stage Developers Go The Right Career Path";
   const contentBg =
@@ -17,10 +21,16 @@ const Content = () => {
   const btnBg = "LEARN MORE";
   const TitleAlumniSaying = 'What alumni saying';
   
+
   return (
     <>
       <DpBackground titleBg={titleBg} contentBg={contentBg} btnBg={btnBg} />
-      <DpAboutRoad />
+      <DpAboutRoad
+        aboutTitle={aboutTitle}
+        aboutDesc={aboutDesc}
+        aboutContent={aboutContent}
+        roadTitle={roadTitle}
+      />
       <DpMustHave />
       <DpCampus />
       <DpAdmission />
