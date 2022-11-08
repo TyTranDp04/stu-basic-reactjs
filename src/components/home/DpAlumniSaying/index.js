@@ -45,23 +45,6 @@ const DpAlumniSaying = ({ TitleAlumniSaying }) => {
       </div>
     ),
     cssEase: "linear",
-    // .slick-dots li button
-    // customPaging: (i) => (
-    //   <div
-    //     style={{
-    //       width: "30px",
-    //       color: "blue",
-    //       borderRadius: "30px",
-    //       margin: "40px 6px",
-    //       display: "inline-block",
-    //       fontSize: "15px",
-    //       lineHeight: "15px",
-    //       backgroundColor: "#226fb7",
-    //       padding: "3px 0px",
-    //       bottom: "20px",
-    //     }}
-    //   ></div>
-    // ),
     responsive: [
       {
         breakpoint: 1024,
