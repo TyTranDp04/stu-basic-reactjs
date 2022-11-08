@@ -4,6 +4,10 @@ import {getListDataDpRoadReducers, getListDataAlumniSayingReducers } from './hom
 const reducers = combineReducers({
   dpRoad: getListDataDpRoadReducers,
   dpAlumniSaying: getListDataAlumniSayingReducers,
+<<<<<<< HEAD
+=======
+  
+>>>>>>> develop
 });
 
 const rootReducer = (state, action) => reducers(state, action);

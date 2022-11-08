@@ -1,4 +1,4 @@
-import { DP_ABOUT_ROAD_URL, URL_ALUMNI_SAYING } from "api/urls";
+import { DP_ABOUT_ROAD_URL, DP_ALUMNI_SAYING_URL } from "api/urls";
 import { GET_LIST_DATA_ERROR, GET_LIST_DATA_REQUEST, GET_LIST_DATA_SUCCESS } from "redux/constants";
 
 
@@ -26,7 +26,7 @@ export const getListDataAlumniSaying = () => async dispatch => {
   try {
     dispatch({ type: GET_LIST_DATA_REQUEST });
 
-    const url = URL_ALUMNI_SAYING;
+    const url = DP_ALUMNI_SAYING_URL;
     const response = await fetch(url)
     const responseBody = await response.json();
     dispatch({

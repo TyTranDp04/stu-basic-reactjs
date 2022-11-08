@@ -1,6 +1,6 @@
 import React from "react";
 import { BtnBg, Container, ContentBg, Row, TitleBg } from "./style";
-import { Slide } from "react-reveal";
+import Slide from "react-reveal/Slide";
 
 const DpBackground = ({ titleBg, contentBg, btnBg }) => {
   const openInNewTab = (url) => {
