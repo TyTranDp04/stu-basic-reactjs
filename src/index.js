@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './assets/fonts/Nunito/Nunito-VariableFont_wght.ttf';
+import './assets/fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf';
 import './assets/fonts/Rubik/Rubik-VariableFont_wght.ttf';
 import { Provider } from 'react-redux';
 import { store } from 'store';
@@ -12,8 +12,8 @@ import { store } from 'store';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Provider store = {store}>
-    <App />
+    <Provider store={store}>
+      <App />
     </Provider>
   </React.StrictMode>
 );
