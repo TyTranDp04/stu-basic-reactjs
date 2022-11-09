@@ -18,7 +18,7 @@ const Content = () => {
     "Devplus is not a training center, it’s battle campus for you to level up your skillsets and ready to onboard any projects in our “kindest” companies listing";
   const btnBg = "LEARN MORE";
   const TitleAlumniSaying = 'What alumni saying';
-  
+  const titleMustHave = "What an engineer after Devplus will must have?";
 
   return (
     <>
@@ -29,7 +29,7 @@ const Content = () => {
         aboutContent={aboutContent}
         roadTitle={roadTitle}
       />
-      <DpMustHave />
+      <DpMustHave titleMustHave={titleMustHave}/>
       <DpCampus />
       <DpAdmission />
       <DpConcerns />

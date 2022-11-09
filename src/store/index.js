@@ -1,10 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { dpAlumniSayingReducer } from "./slices/home/dpAlumniSaying";
+import { dpMustHaveReducer } from "./slices/home/dpMustHave.slice";
 import { dpRoadReducer } from "./slices/home/dpRoad.slice";
 
 const rootReducer = {
   dpRoad: dpRoadReducer,
-  dpAlumniSaying: dpAlumniSayingReducer
+  dpAlumniSaying: dpAlumniSayingReducer,
+  dpMustHave: dpMustHaveReducer,
 }
 
 export const store = configureStore({

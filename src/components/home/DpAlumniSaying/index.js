@@ -92,7 +92,6 @@ const DpAlumniSaying = ({ TitleAlumniSaying }) => {
         </Slider>
       </Container>
     </React.Fragment>
-  );
-};
-
+  )
+}
 export default DpAlumniSaying;
