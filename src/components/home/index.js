@@ -19,7 +19,6 @@ const Content = () => {
   const btnBg = "LEARN MORE";
   const titleMustHave = "What an engineer after Devplus will must have?";
   const TitleAlumniSaying = 'What alumni saying';
-  const titleMustHave = "What an engineer after Devplus will must have?";
 
   return (
     <>
