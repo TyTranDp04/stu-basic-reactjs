@@ -21,11 +21,11 @@ const DpAlumniSaying = ({ TitleAlumniSaying }) => {
   const dataAlumniSaying = useSelector((state) => state.dpAlumniSaying.dpAlumniSayingState);
   const dispatch = useDispatch();
   const data = dataAlumniSaying.data;
-  console.log("data", data);
 
   useEffect(() => {
     dispatch(getListDataAlumniSaying());
   }, [dispatch]);
+
   const settings = {
     dots: true,
     infinite: true,
@@ -71,6 +71,7 @@ const DpAlumniSaying = ({ TitleAlumniSaying }) => {
       },
     ],
   };
+  
   return (
     <React.Fragment>
       <Container className="container">

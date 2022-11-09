@@ -5,8 +5,9 @@ import { dpRoadReducer } from "./slices/home/dpRoad.slice";
 
 const rootReducer = {
   dpRoad: dpRoadReducer,
-  dpAlumniSaying: dpAlumniSayingReducer,
   dpMustHave: dpMustHaveReducer,
+  dpMustHave: dpMustHaveReducer,
+  dpAlumniSaying: dpAlumniSayingReducer
 }
 
 export const store = configureStore({
